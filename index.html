@@ -83,6 +83,34 @@
             font-size: 0.95rem;
             color: #78350f; /* Brownish color for text */
         }
+        .edital-extract {
+            background-color: #f3f4f6;
+            border-left: 5px solid #4b5563;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            font-family: 'Times New Roman', Times, serif;
+            color: #1f2937;
+        }
+        .edital-extract h3 {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+        .edital-extract p {
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+        .edital-list {
+            list-style-type: none;
+            padding-left: 0;
+            font-size: 0.95rem;
+        }
+        .edital-list li {
+            margin-bottom: 0.3rem;
+            padding-left: 1rem;
+            text-indent: -1rem;
+        }
     </style>
 </head>
 <body class="p-4">
@@ -92,6 +120,23 @@
         <p class="text-center text-gray-600 mb-8 italic">
             Este site não é oficial. Destina-se apenas ao auxílio dos candidatos à emissão das certidões.
         </p>
+
+        <!-- Bloco simulando o Edital -->
+        <div class="edital-extract">
+            <h3>Do Edital - Documentação Exigida</h3>
+            <p>Itém 7.10.9. O candidato deverá apresentar as seguintes certidões:</p>
+            <ul class="edital-list">
+                <li>a) Certidão do 2º Ofício de Registro de Distribuição - Ações Cíveis e Criminais;</li>
+                <li>b) Certidão da Justiça Militar da União - Distribuição de Ações Criminais;</li>
+                <li>c) Certidão do 1º Ofício de Interdições e Tutelas;</li>
+                <li>d) Certidão do 2º Ofício de Interdições e Tutelas;</li>
+                <li>e) Certidão do TRE de seu Domicílio Eleitoral - Quitação e Crimes Eleitorais;</li>
+                <li>f) Certidão do Tribunal Regional do Trabalho - 1ª Região - Ações Trabalhistas;</li>
+                <li>g) Certidão da Justiça Federal - Ações Cíveis e Criminais;</li>
+                <li>h) Certidão de Nada Consta Criminal da Polícia Federal;</li>
+                <li>i) Certidão de Inteiro Teor - IIFP/Sepol (Antecedentes Criminais Estadual).</li>
+            </ul>
+        </div>
 
         <!-- Bloco de Informação Adicional -->
         <div class="info-block">
@@ -201,7 +246,7 @@
         </div>
     </div>
     <footer class="footer">
-        <p>&copy; 2025 Auxilio à Emissão das Certidões PPRJ (Não Oficial). Todos os direitos reservados.</p>
+        <p>&copy; 2025 Certidões PPRJ. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
